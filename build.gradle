@@ -16,7 +16,6 @@ repositories {
 
 dependencies {
     implementation 'org.springframework.boot:spring-boot-starter'
-    annotationProcessor 'org.springframework.boot:spring-boot-configuration-processor'
     annotationProcessor "org.springframework.boot:spring-boot-autoconfigure-processor"
     implementation 'com.github.sangwookp9591:greeter:334939f01f'
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
