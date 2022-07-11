@@ -2,7 +2,7 @@ package dev.greeter.autoconfiguration;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 
-@ConfigurationProperties(prefix = "donghyeon.greeter")
+@ConfigurationProperties(prefix = "dev.greeter")
 public class GreeterProperties {
 
     private String userName;
